@@ -1,6 +1,6 @@
 # Quantum Volume (Blender Add-on)
 
-This is a Blender add-on that generates node groups and helpers to visualize harmonic-oscillator-style wavefunctions and related scenes (backdrop, glass, light environment, point cloud, volume).
+This is a Blender add-on that generates node groups and helpers to visualize harmonic-oscillator-style wavefunctions.
 
 ## Features
 - Creates Geometry/Shader node groups used to produce wavefunction-like patterns.
