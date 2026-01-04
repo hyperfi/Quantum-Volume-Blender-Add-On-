@@ -25,8 +25,6 @@ Alternatively, copy the folder into Blender's addons directory (usually under `.
 2. In Object Mode, open the Add / Modifier menu (the add-on appends its operators to the Add Modifier menu).
 3. Choose one of the available operator (Full Wavefunction HO) to add the corresponding node groups / objects to the scene.
 
-For development: you can edit the Python files externally or inside Blender's Text Editor. To reload changes, use Blender's script reload or re-enable the add-on.
-
 ## License
 This project is released under the GNU General Public License v3. See the included `LICENSE` file for full terms.
 
@@ -52,7 +50,7 @@ Key controls
 
 Representation notes
 - Volume: uses 3D voxel sampling of |ψ(r)|^2 and a volume shader to visualize density. Good for viewport performance and for rendering volumetric glow/softness.
-- Particle Cloud: importance-sampled or stratified sampling can be used to place particles where |ψ|^2 is largest; particles are instanced spheres (geometry instancing) to keep memory use low.
+- Particle Cloud:  Particles are instanced spheres (geometry instancing) to keep memory use low.
 - Abstract Mesh: extracts an iso-surface of the probability density and applies a smooth, organic surface operation (metaballs or `Volume to Mesh` + remesh). Apply the glass material for a water-like look.
 
 Usage
