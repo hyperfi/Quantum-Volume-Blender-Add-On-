@@ -4,7 +4,8 @@ This is a Blender add-on that generates node groups and helpers to visualize har
 
 ## Features
 - Creates Geometry/Shader node groups used to produce wavefunction-like patterns.
-- Operators for: Full wavefunction, Glass, Backdrop, Light Environment, Point Cloud, Volume.
+- Geo Nodes for: Full wavefunction.
+- Material Nodes for: Glass, Backdrop, Light Environment, Point Cloud, Volume.
 - Adds entries to Blender's Add Modifier menu for quick access.
 
 
