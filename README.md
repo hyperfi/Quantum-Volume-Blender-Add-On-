@@ -5,6 +5,10 @@
 
 This is a Blender add-on that generates node groups and helpers to visualize harmonic-oscillator-style wavefunctions.
 
+## Download the add on from the link below:
+
+https://hyperfine3d.gumroad.com/l/quantum-volume
+
 ## Features
 - Creates Geometry/Shader node groups used to produce wavefunction-like patterns.
 - Geo Nodes for: Full wavefunction.
